@@ -1,0 +1,24 @@
+/* Google font */
+
+
+body {
+	font-size: 38px;
+	color: #65696B;
+	background-color: white;
+}
+
+.container-fluid {
+	text-align: center;
+}
+	
+p.subtitle {
+	background-color: white;
+	font-size: 20px;
+	color: #95989A;
+}
+
+.underline {
+	padding: 20px 120px;
+	border-bottom: 1px solid #D2DBDF;
+	display: inline-block;
+}
