@@ -2,7 +2,7 @@
 
 
 body {
-	font-size: 38px;
+	font-size: 16px;
 	color: #65696B;
 	background-color: white;
 }
@@ -22,3 +22,8 @@ p.subtitle {
 	border-bottom: 1px solid #D2DBDF;
 	display: inline-block;
 }
+
+div#about, div#about-accordion {
+	padding: 20px;
+}
+
