@@ -7,14 +7,38 @@ body {
 	background-color: white;
 }
 
+a.collapsed {
+	display: block;
+}
+
+a#accordion {
+	display: block;
+}
+
+.panel-title {
+	display: block;
+	cursor: pointer;
+}
+
 .container-fluid {
 	text-align: center;
 }
 	
 p.subtitle {
-	background-color: white;
 	font-size: 20px;
 	color: #95989A;
+}
+
+p#footer {
+	font-size: 16px;
+	color: #DDF1DD;
+	display: inline-block
+}
+
+.jumbotron {
+	background-color: #58B957; /* Green */
+	padding: 20px 60px 60px 60px;
+	text-align: left;
 }
 
 .underline {
@@ -23,7 +47,34 @@ p.subtitle {
 	display: inline-block;
 }
 
-div#about, div#about-accordion {
+.underline2 {
+	border-bottom: 1px solid #D2DBDF;
+	display: inline-block;
+}
+
+div#about, div#about-accordion, div#partners, div#services, div#map {
 	padding: 20px;
 }
 
+div#footer-row.row {
+	line-height: 0px;
+}
+
+div#footer-arrow.row {
+	padding-bottom: 30px;
+	font-size: 50px;
+}
+
+hr {
+	display: block;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+	color: #DDF1DD;
+}
+
+.glyphicon {
+	color: #DDF1DD;
+}

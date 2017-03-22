@@ -13,6 +13,9 @@
 </head>
 <body>
 
+<div id="home">
+</div>
+
 <div id="about">
 	<div class="container-fluid">
 		<div class="row">
@@ -51,7 +54,7 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="accordion">
 							Varied Selection
 							</a>
 							</h4>
@@ -117,11 +120,70 @@
 </div>
 
 <div id="map">
+	<div class="container-fluid">
+		<p>* * * MAP GOES HERE * * *</p>
+	</div>
 </div>
 
 <div id="contact">
-	<div class="jumbotron text-center">
-		<h1>CONTACT US</h1>
+	<div class="jumbotron">
+		<div class="row" id="footer-arrow">
+			<div class="col-sm-6 col-sm-offset-3">
+				<div class="text-center">
+				<a href="#home" class="scrollup" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+				<span class="glyphicon glyphicon-menu-up"></span>
+				</a>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="footer-row">
+			<div class="col-sm-6">
+				<span class="glyphicon glyphicon-phone-alt glyphicon-align-left"></span>
+				<p id="footer">Contact Us</p>
+			</div>
+			<div class="col-sm-3">
+				<span class="glyphicon glyphicon-map-marker glyphicon-align-left"></span>
+				<p id="footer">Address</p>
+			</div>
+			<div class="col-sm-3">
+				<span class="glyphicon glyphicon-link glyphicon-align-left"></span>
+				<p id="footer">Social Links</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-3">
+				<span class="glyphicon glyphicon-phone-alt glyphicon-align-left"></span>
+				<p id="footer">Contact Us</p><br>
+				<p id="footer">Epure Petru (Administrator)<br>
+					Email: petru.epure@epi.ro<br> 
+					Tel: +40 748 198987<br>
+						+40 723 633911<br>
+						+40 268 273247</p> 
+			</div>
+			<div class="col-sm-3">
+				<p id="footer">Epure Delia (Office Manager)<br>
+					Email : delia.epure@epi.ro<br>
+					Tel : +40 742 159370<br>
+						+40 268 273247</p>
+			</div>
+			<div class="col-sm-3">
+				<span class="glyphicon glyphicon-map-marker glyphicon-align-left"></span>
+				<p id="footer">Address</p><br>
+				<p id="footer">Strada Livezii 15, Săcele<br> 
+				505600, Romania</p>
+			</div>
+			<div class="col-sm-3">
+				<span class="glyphicon glyphicon-link glyphicon-align-left"></span>
+				<p id="footer">Social Links</p><br>
+				<p id="footer">**buttons**</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<p id="footer">© 2017 EPI SISTEM SRL. All Rights Reserved.</p>
+			</div>
+		</div>
 	</div>
 </div>
   
