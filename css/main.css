@@ -35,11 +35,25 @@ p#footer {
 	display: inline-block
 }
 
+p#footer-title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #DDF1DD;
+	display: inline-block;
+	line-height: 0px;
+}
+
 p#footer-sm {
 	margin-top: 40px;
 	font-size: 10px;
 	color: #DDF1DD;
 	display: inline-block
+}
+	
+i.fa.fa {
+	color: #DDF1DD;
+	float: left;
+	padding-right: 20px;
 }
 	
 .jumbotron {
