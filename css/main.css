@@ -99,3 +99,116 @@ hr {
 .glyphicon {
 	color: #DDF1DD;
 }
+
+
+/* START Gallery CSS */
+
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+}
+
+.filter-button.active {
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.partners {
+    margin-bottom: 30px;
+}
+
+.partners-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 0;
+  background: #58B957;
+  color: #fff;
+  vertical-align: middle;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;  
+  padding: 16px;
+}
+
+.partners-wrap .overlay .preview {
+  bottom: 0;
+  display: inline-block;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+}
+
+.partners-wrap:hover .overlay {
+  opacity: .8;
+}
+
+.partners-wrap {
+  position: relative;
+}
+
+.partners-wrap img{
+  width: 100%;
+}
+
+.partners-wrap .partners-inner p{
+	font-size: 6px;
+	font-size: 1vw;
+	color: #fff;
+}
+
+a.gallery {
+  display: inline-block;
+  font-size: 10px;
+  font-size: 1vw;
+  color: #fff;	
+}
+
+i#gallery-icon {
+	font-size: 10px;
+	font-size: 1.5vw;
+	color: #fff;
+	padding-right: 5px;
+}
+
+/* END Gallery CSS */
+
