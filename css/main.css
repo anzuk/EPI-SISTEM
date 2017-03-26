@@ -60,10 +60,11 @@ i.fa.fa {
 	background-color: #58B957; /* Green */
 	padding: 20px 60px 60px 60px;
 	text-align: left;
+	margin-bottom: 0px;
 }
 
 .underline {
-	padding: 20px 120px;
+	padding: 20px 70px;
 	border-bottom: 1px solid #D2DBDF;
 	display: inline-block;
 }
@@ -122,24 +123,25 @@ hr {
 
 .filter-button {
     font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
+    border: 1px solid #D2DBDF;
+    border-radius: 0px;
     text-align: center;
-    color: #42B32F;
+    color: #58B957;
     margin-bottom: 30px;
+	margin-right: 0px;
 }
 
 .filter-button:hover {
     font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
+    border: 1px solid #D2DBDF;
+    border-radius: 0px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #58B957;
 }
 
 .filter-button.active {
-    background-color: #42B32F;
+    background-color: #58B957;
     color: white;
 }
 
@@ -147,65 +149,45 @@ hr {
     width: 100%;
 }
 
-.partners {
-    margin-bottom: 30px;
+img.img-responsive {
+	width: 100%;
 }
 
-.partners-wrap .overlay {
+.partners {
+    margin: 0px;
+	padding: 0px;
+}
+
+.overlay {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  border-radius: 0;
-  background: #58B957;
-  color: #fff;
-  vertical-align: middle;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;  
-  padding: 16px;
-}
-
-.partners-wrap .overlay .preview {
   bottom: 0;
-  display: inline-block;
-  border-radius: 0;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-}
-
-.partners-wrap:hover .overlay {
-  opacity: .8;
-}
-
-.partners-wrap {
-  position: relative;
-}
-
-.partners-wrap img{
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #58B957;
 }
 
-.partners-wrap .partners-inner p{
-	font-size: 6px;
-	font-size: 1vw;
-	color: #fff;
-}
+.container:hover .overlay {
+  opacity: 1;
+}	
 
-a.gallery {
+a.gallery-link {
   display: inline-block;
-  font-size: 10px;
-  font-size: 1vw;
-  color: #fff;	
+  color: #DDF1DD;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);	
 }
 
 i#gallery-icon {
-	font-size: 10px;
-	font-size: 1.5vw;
+	font-size: 14px;
 	color: #fff;
 	padding-right: 5px;
 }
