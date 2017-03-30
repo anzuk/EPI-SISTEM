@@ -121,30 +121,6 @@ hr {
     border-bottom: 1px solid #5e5e5e;
 }
 
-.filter-button {
-    font-size: 18px;
-    border: 1px solid #D2DBDF;
-    border-radius: 0px;
-    text-align: center;
-    color: #58B957;
-    margin-bottom: 30px;
-	margin-right: 0px;
-}
-
-.filter-button:hover {
-    font-size: 18px;
-    border: 1px solid #D2DBDF;
-    border-radius: 0px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #58B957;
-}
-
-.filter-button.active {
-    background-color: #58B957;
-    color: white;
-}
-
 .port-image {
     width: 100%;
 }
@@ -158,38 +134,10 @@ img.img-responsive {
 	padding: 0px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #58B957;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}	
-
-a.gallery-link {
-  display: inline-block;
-  color: #DDF1DD;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);	
-}
-
-i#gallery-icon {
-	font-size: 14px;
-	color: #fff;
-	padding-right: 5px;
+.shopbanner {
+  background: url("https://fakeimg.pl/1160x300/?text=Shop%20Now") no-repeat center top;
+  background-size: contain;
+  height: 300px;
 }
 
 /* END Gallery CSS */
