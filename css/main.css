@@ -135,9 +135,14 @@ img.img-responsive {
 }
 
 .shopbanner {
-  background: url("https://fakeimg.pl/1160x300/?text=Shop%20Now") no-repeat center top;
+  background: url("images/shop.jpg") no-repeat center top;
   background-size: contain;
-  height: 300px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+p.shop{
+	text-align: center;
 }
 
 /* END Gallery CSS */
