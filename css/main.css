@@ -135,21 +135,8 @@ img.img-responsive {
 }
 
 .shopbanner {
-  background: url("images/shop2.jpg") no-repeat center top;
-  background-size: contain;
-  height: 400px;
+	position: relative;
   margin-top: 50px;
-  cursor: hand;
-}
-
-.shoptext {
-	background: rgba(255,255,255,0.5);
-	margin-top: 25%;
-}
-
-p.shop{
-	text-align: center;
-	font-size: 36px;
 }
 
 /* END Gallery CSS */
