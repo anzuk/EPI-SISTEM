@@ -322,3 +322,32 @@ p.subtitle2 {
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+
+/* END Services CSS */
+
+/* START METROHM-AUTOLAB PAGE */
+
+div#metrohm-autolab.container-fluid {
+	padding-top: 100px;
+}
+
+p.partner-title {
+	font-size: 18px;
+	padding-top: 40px;	
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #58b957;
+}
+
+p.partner-subtitle {
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+img#partner-logo.img-responsive {
+	height: 150px;
+	width: auto;
+	padding: 25px;
+}
+
+/* END METROHM-AUTOLAB PAGE */
