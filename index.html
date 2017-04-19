@@ -1,38 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>EPI SISTEM</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>EPI SISTEM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/epi.js"></script>
   
   <!-- CSS Style -->
   <link href="css/main.css" rel="stylesheet">
-  </head>
+</head>
 <body>
 
-<div class="container-fluid">
-  <h1><span class="underline">ABOUT US</span></h1>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <p class="subtitle">!!!!123Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet mattis ultrices.</p>
+<!-- Navbar -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#partners">PARTNERS</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+		<li><a href="http://www.epi.ro/shop/ro/" target="_blank"><span id="shop" class="glyphicon glyphicon-shopping-cart glyphicon-align-left"></span></a></li>
+      </ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" style="padding-top:100px">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slider1.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Metrohm-Autolab</h1>
+          <p>Metrohm Autolab produces four different potentiostat/galvanostat lines for a wide range of electrochemical applications, as well as modular extensions, software and accessories.</p>
+          <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>
+        </p></pthis></div>
       </div>
+    </div>
+    <div class="item">
+      <img src="images/slider2.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>DropSens</h1>
+          <p>DropSens is an Innovative Technology-Based Firm specialized in the design and manufacture of instruments for Electrochemistry Research, that offers innovative electrochemical tools with the aim of giving flexible, user-friendly, portable and effective products.</p>
+          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider3.jpg" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Regatron</h1>
+          <p>Active for over 47 years in the electronics manufacturing, Regatron AG has stored a remarkable experience in manufacturing high-quality modular programmable power supplies, used in factories, laboratories and research and development centers.</p>
+          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</div>
+<!-- /.carousel -->
+
+<div id="about" class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h1><span class="underline">ABOUT US</span></h1>
+		</div>
+		<div class="col-md-10 col-md-offset-1" style="margin-top: 25px;">
+			<p class="subtitle">We are a company specialized in distribution for measurement equipments designed mainly for research and education. We have experience in software, measurement & automation based on National Instruments solutions and also DAQ & PLC.</p>
+			<p class="subtitle">Our programming portfolio is build on Labview and Labwindows/CVI, Keil C for PSOC Creator and PSOC Designer and also HTML for webdesign.</p>
+			<p class="subtitle">Our company has 15 years of experience in the field of commerce and programming and we have a mid term focus also in small industrial solutions.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-1">
+			<img class="img-responsive" src="images/about.jpg" alt="about"></img>
+		</div>
+	<div class="col-md-6">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					Lab Equipment
+					</a>
+					</h4>
+				</div>
+			<div id="collapse1" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<p>Our portfolio is based on electrochemical systems, spectrometry, AFM/NSOM microscopy, DAQ systems and automation, monitor & control solutions, programmable power supply, electrocoagulation solutions.</p>
+					<p>Regarding education we provide STEM solutions for 7-21 aged students, over 65 types of sensors giving possibility to explore more then 120 experiments in physics, chemistry, biology and environment.</p>
+					<p>Renewable energy kits and robotic kits are also a part of our educational field.  All educational solutions are accompanied by experiment books.</p>
+				</div>
+			</div>
+			</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="accordion">
+						Varied Selection
+						</a>
+						</h4>
+					</div>
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><p>We have commercial partners in over 30 countries all over the world. We can provide different solutions for the same request and/or specifications.</p>
+											<p>Our company provide products from more then 150 manufacturers, you can find the most representative of them in our <a href="#partners">Partners</a> section.
+					</div>
+				</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+						Support
+						</a>
+						</h4>
+					</div>
+				<div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body"><p>Our first degree support on equipments and software usage is based on our assistance team achieved in 15 years of activity.</p>
+											<p>The second degree level of assistance is based on manufacturer specialists with whom we have a strong and personal relationship.</p>
+											<p>Technical and functional incidents are treated until 100% client satisfaction.</p>
+					</div>
+				</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+						Delivery
+						</a>
+						</h4>
+					</div>
+				<div id="collapse4" class="panel-collapse collapse">
+					<div class="panel-body"><p>Since 2008 our company is ISO 9001:2008 certified for commercial activities including delivery activities.</p>
+											<p>We have an efficient traceability of parcels and goods and all our paperwork is following process procedures according to quality manual.</p>
+											<p>You can count on us for a fast and secure delivery!</p>
+					</div>
+				</div>
+				</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<div id="partners" class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h1><span class="underline">PARTNERS</span></h1>
+		</div>
+		<div class="col-md-10 col-md-offset-1" style="margin-top: 25px;">
+		<p class="subtitle">We have some traditional partners like Metrohm-Autolab, National Instruments, Dropsens, Labjack, Regatron, Omega, Nanonics, Fourier EDU, Horizon Fuel Cells but also a broad range of other supliers and manufacturers.</p>
+		<p class="subtitle">For specific requests please ask us for a quotation or solution.</p>
+		</div>
+	</div>
+ <div id="partners" class="container">
+     <div class="row">
+	 
+		<!-- 1 -->
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+            <a href="http://www.ni.com" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_national_instruments.jpg" alt="nationalinstruments"></img>
+			</a>
+		</div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://dropsens.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_dropsens.jpg" alt="dropsens"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.metrohm-autolab.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_metrohmautolab.jpg" alt="metrohm"></img>
+			</a>
+        </div>		
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.regatron.com/en/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_regatron.jpg" alt="regatron"></img>
+			</a>
+        </div>		
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.procontrolsl.com/en" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_procontrol.jpg" alt="procontrol"></img>
+			</a>
+        </div>		
+
+		<div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="https://www.thiesclima.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_thies_clima.jpg" alt="thies"></img>
+			</a>
+		</div>
+
+		<!-- 2 -->
+		
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.omega.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_omega.jpg" alt="omega"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="https://labjack.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_labjack.jpg" alt="labjack"></img>
+			</a>
+        </div>		
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.ke-instruments.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_ke_instruments.jpg" alt="keinstruments"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.nanonics.co.il/" target="_blank">
+            <img class="img-responsive" src="images/partners/logo_nanonics.jpg" alt="nanonics"></img>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.nanovexbiotech.com/" target="_blank">
+            <img class="img-responsive" src="images/partners/logo_nanovex.jpg" alt="nanovex"></img>
+        </div>		
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.bioquochem.com/" target="_blank">
+            <img class="img-responsive" src="images/partners/logo_bioquochem.jpg" alt="bioquochem"></img>
+        </div>
+		
+		<!-- 3 -->
+		
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.cypress.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_cypress.jpg" alt="cypress"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://store.digilentinc.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_diligent.jpg" alt="diligent"></img>
+			</a>
+        </div>
+		
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://einsteinworld.com/home/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_einstein.jpg" alt="einstein"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.ammonit.com/en/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_ammonit.jpg" alt="ammonit"></img>
+			</a>
+        </div>	
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.inexglobal.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_inex.jpg" alt="inex"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.libelium.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_libelium.jpg" alt="libelium"></img>
+			</a>
+        </div>
+
+		<!-- 4 -->	
+		
+		<div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.waterdiam.com/en" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_waterdiam.jpg" alt="waterdiam"></img>
+			</a>
+		</div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.pragma-industries.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_pragma_industries.jpg" alt="pragmaindustries"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.vizictechnologies.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_vizic.jpg" alt="vizic"></img>
+			</a>
+        </div>
+	
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.avantes.com/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_avantes.jpg" alt="avantes"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="https://www.netatmo.com/en-US/site" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_netatmo.jpg" alt="netatmo"></img>
+			</a>
+        </div>
+
+        <div class="partners col-lg-2 col-md-2 col-sm-2 col-xs-4">
+			<a href="http://www.kandh.com.tw/" target="_blank">
+				<img class="img-responsive" src="images/partners/logo_kandh.jpg" alt="kandh"></img>
+			</a>
+        </div>
+		
+    </div>
+
+	
+<div id="shopbanner" class="carousel slide" data-ride="carousel" style="margin-top: 40px;">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/shop2.jpg" alt="Shop" data-pin-nopin="true">
+          <div class="container">
+            <div class="carousel2-caption">
+			<h1 class="shop">Our Product Selection</h1>
+              <p class="shop">Browse our selection of products and find the equipment that suits your needs.</p>
+              <p><a class="btn btn-lg btn-primary" href="http://www.epi.ro/shop/ro/" target="_blank" role="button">Shop now</a></p>
+            </div>
+          </div>
+        </div>
     </div>
 </div>
 
-<div class="container-fluid">
-  <h1><span class="underline">PARTNERS</span></h1>
-  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet mattis ultrices.</p>
+	
+</div>	
+	
 </div>
 
-<div class="container-fluid">
-  <h1><span class="underline">SERVICES</span></h1>
-  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet mattis ultrices.</p>
+<div id="services" class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h1><span class="underline">SERVICES</span></h1>
+		</div>
+		<div class="col-md-10 col-md-offset-1" style="margin-top: 25px;">
+			<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet mattis ultrices.</p>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+	
+		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-2 col-lg-2 col-lg-offset-3">
+			<h3>Distribution</h3>
+			<img id="services" class="img-responsive" src="images/services-distribution2.jpg" alt="distribution"></img>
+			<p class="subtitle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec aliquet mattis ultrices.</p>
+		</div>
+		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-2 col-lg-offset-0">
+			<h3>Software & Automation</h3>
+			<img id="services" class="img-responsive" src="images/services-software1.jpg" alt="software"></img>
+			<p class="subtitle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec aliquet mattis ultrices.</p>
+		</div>
+		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-2 col-lg-offset-0">
+			<h3>3D Design & Printing</h3>
+			<img id="services" class="img-responsive" src="images/services-3d.jpg" alt="3D"></img>
+			<p class="subtitle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec aliquet mattis ultrices.</p>
+		</div>
+	</div>
+	
+</div>
 
-<div class="container-fluid">
-  <h1>CONTACT</h1>
+<div id="contact" class="jumbotron">
+	
+	<div class="row" id="footer-arrow">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="text-center">
+				<a href="#home" class="scrollup" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+					<span class="glyphicon glyphicon-menu-up"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+		
+	<div class="row row-fluid">
+		
+		<div class="col-sm-6 col-md-4 col-lg-4 col-md-offset-3 col-lg-offset-2">
+			<span class="glyphicon glyphicon-phone-alt glyphicon-align-left"></span>
+				<p id="footer-title">Contact Us</p><br>
+			
+			<div class="row row-fluid">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<p id="footer">Epure Petru (Administrator)<br>
+						Email: petru.epure@epi.ro<br> 
+						Tel: +40 748 198987<br>
+						+40 723 633911<br>
+						+40 268 273247</p>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<p id="footer">Epure Delia (Office Manager)<br>
+						Email : delia.epure@epi.ro<br>
+						Tel : +40 742 159370<br>
+						+40 268 273247</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-3 col-md-2 col-lg-2">
+			<span class="glyphicon glyphicon-map-marker glyphicon-align-left"></span>
+				<p id="footer-title">Address</p><br>
+				
+			<div class="row row-fluid">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<p id="footer">Strada Livezii 15, Săcele
+					505600, Romania</p>
+				</div>
+			</div>
+		</div>
+			
+		<div class="col-sm-3 col-md-2 col-lg-2">
+				<p id="footer-title">Social Links</p><br>
+				
+			<div class="row row-fluid">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<a href="#facebook">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a href="#googleplus">
+						<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+					<a href="#linkedin">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+					<a href="#twitter">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="row row-fluid">
+		<div class="col-sm-12 text-center">
+			<p id="footer-sm">© 2017 EPI SISTEM SRL. All Rights Reserved.</p>
+		</div>
+	</div>
 </div>
   
 </body>
