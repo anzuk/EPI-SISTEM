@@ -385,3 +385,76 @@ img#dropsens-logo.img-responsive {
 }
 	
 /* END DROPSENS PAGE */
+
+/* START REGATRON PAGE */
+
+div#regatron.container-fluid {
+	padding-top: 100px;
+}
+
+p.regatron-title {
+	font-size: 18px;
+	padding-top: 40px;	
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #01a6ff;
+}
+
+p.regatron-subtitle {
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: justify;
+}	
+	
+img#regatron-logo.img-responsive {
+	height: 150px;
+	width: auto;
+	padding: 25px;
+}
+
+/* END REGATRON PAGE */
+
+/* START NATIONAL INSTRUMENTS PAGE */
+
+div#natinstruments.container-fluid {
+	padding-top: 100px;
+}
+
+p.natinstruments-title {
+	font-size: 24px;
+	padding-top: 40px;	
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #065fa3;
+}
+
+p.natinstruments-title2 {
+	font-size: 20px;
+	padding-top: 40px;	
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #065fa3;
+}
+
+p.natinstruments-title3 {
+	font-size: 18px;
+	padding-top: 40px;	
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #065fa3;
+	text-align: left;
+}
+
+p.natinstruments-subtitle {
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: justify;
+}	
+	
+img#natinstruments-logo.img-responsive {
+	height: 140px;
+	width: auto;
+	padding: 25px;
+}
+
+/* END NATIONAL INSTRUMENTS PAGE */
