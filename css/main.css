@@ -217,7 +217,7 @@ p.shop {
 
 .carousel-caption {
   position: absolute;
-  left: 5%;
+  left: 10%;
   right: 5%;
   bottom: 0;
   z-index: 10;
@@ -313,7 +313,7 @@ p.shop {
     background-color: #128f87;
 }
 
-  .container {
+.container1 {
     max-width: 930px;
   }
   
