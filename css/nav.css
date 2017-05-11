@@ -131,6 +131,7 @@ div.products-dropdown2 a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+	border: 1px solid #12817a;
 }
 
 div.products-dropdown2 a:hover {

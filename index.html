@@ -18,27 +18,34 @@
 
 <!-- Navbar -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT US</a></li>
-        <li><a href="#partners">PARTNERS</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-		<li><a href="http://www.epi.ro/shop/ro/" target="_blank">PRODUCT CATALOG</a></li>
-      </ul>
-		</div>
+<header class="clearfix navbar-fixed-top">
+    <div class="container">
+			<div class="header-left">
+				<a class="navbar-brand" href="index.html"><img src="images/epi-logo-s-white.png" alt="EPI SISTEM"></a>
+			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="box" id="open">
+				<nav>
+					<a href="#about">ABOUT US</a>
+					<div class="products-dropdown1">
+					<a class="products-content" href="#products">PRODUCTS</a>
+					<div class="products-dropdown2">
+						<a href="#">LIFE SCIENCE</a>
+						<a href="#">EDUCATION KITS</a>
+						<a href="#">MEASURING SYSTEMS</a>
+						<a href="#">STOCK CATALOG</a>
+					</div>
+					</div>
+					<a href="#partners1">PARTNERS</a>
+					<a href="#services">SERVICES</a>
+					<a href="#contact">CONTACT</a>
+				</nav>
+			</div>
 	</div>
-</nav>
+</header>
 
 <!-- Carousel
 ================================================== -->
@@ -128,15 +135,39 @@
 		</div>
 	<div class="col-md-6">
 		<div class="panel-group" id="accordion">
+		
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
 					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-					Lab Equipment
+					ISO 9001:2008 Certified
 					</a>
 					</h4>
 				</div>
 			<div id="collapse1" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+							<img class="img-responsive" src="images/QEC_Q-EPI-SISTEM-SRL.jpg" alt="iso" style="max-height: 150px; width:auto;" />
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+							<p style="padding-top: 10px;">We are ISO 9001:2008 for sales of acquisition data systems.</p>
+							<p>This means import, promotion and commercialisation of all products in portfolio.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="accordion">
+					Lab Equipment
+					</a>
+					</h4>
+				</div>
+			<div id="collapse2" class="panel-collapse collapse">
 				<div class="panel-body">
 					<p>Our portfolio is based on electrochemical systems, spectrometry, AFM/NSOM microscopy, DAQ systems and automation, monitor & control solutions, programmable power supply, electrocoagulation solutions.</p>
 					<p>Regarding education we provide STEM solutions for 7-21 aged students, over 65 types of sensors giving possibility to explore more then 120 experiments in physics, chemistry, biology and environment.</p>
@@ -144,54 +175,110 @@
 				</div>
 			</div>
 			</div>
+			
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="accordion">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" id="accordion">
 						Varied Selection
 						</a>
 						</h4>
 					</div>
-				<div id="collapse2" class="panel-collapse collapse">
+				<div id="collapse3" class="panel-collapse collapse">
 					<div class="panel-body"><p>We have commercial partners in over 30 countries all over the world. We can provide different solutions for the same request and/or specifications.</p>
 											<p>Our company provide products from more then 150 manufacturers, you can find the most representative of them in our <a href="#partners">Partners</a> section.
 					</div>
 				</div>
 				</div>
+				
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
 						Support
 						</a>
 						</h4>
 					</div>
-				<div id="collapse3" class="panel-collapse collapse">
+				<div id="collapse4" class="panel-collapse collapse">
 					<div class="panel-body"><p>Our first degree support on equipments and software usage is based on our assistance team achieved in 15 years of activity.</p>
 											<p>The second degree level of assistance is based on manufacturer specialists with whom we have a strong and personal relationship.</p>
 											<p>Technical and functional incidents are treated until 100% client satisfaction.</p>
 					</div>
 				</div>
 				</div>
+				
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
 						Delivery
 						</a>
 						</h4>
 					</div>
-				<div id="collapse4" class="panel-collapse collapse">
+				<div id="collapse5" class="panel-collapse collapse">
 					<div class="panel-body"><p>Since 2008 our company is ISO 9001:2008 certified for commercial activities including delivery activities.</p>
 											<p>We have an efficient traceability of parcels and goods and all our paperwork is following process procedures according to quality manual.</p>
 											<p>You can count on us for a fast and secure delivery!</p>
 					</div>
 				</div>
 				</div>
+				
 		</div>
 	</div>
 	</div>
 </div>
+
+<div id="products" class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h1><span class="underline">PRODUCTS</span></h1>
+		</div>
+		<div class="col-md-10 col-md-offset-1" style="margin-top: 25px;">
+		<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque facilisis rutrum. Donec venenatis, sapien ac commodo interdum, lacus lectus sagittis nisl, et semper mauris mauris facilisis enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer interdum turpis ligula, ac vulputate libero eleifend sollicitudin. Donec varius viverra iaculis. Curabitur vitae sapien consectetur, tempus velit vel, porta mauris. Suspendisse venenatis ex eget nunc aliquet gravida. Aliquam interdum fermentum urna non viverra. Integer pharetra est sed nunc laoreet, et porta augue posuere. Cras luctus eget tellus a convallis. Integer sit amet sodales ex. Nullam non erat sed est fringilla hendrerit.</p>
+		</div>
+	</div>
+</div>
+
+<div id="products2" class="container">
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-2">
+			<h3>Life Science</h3>
+		</div>
+		<div class="col-xs-8 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-0">
+			<h3>Education Kits</h3>
+		</div>
+		<div class="col-xs-8 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-0">
+			<h3>Measuring Systems</h3>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-2" id="life-science">
+			<div class="thumbnail">
+				<img src="images/main-science.jpg" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="products3" class="container">
+   <div class="row">
+		<div id="shopbanner" class="carousel2 slide" data-ride="carousel" style="margin-top: 40px;">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img class="first-slide" src="images/shop2.jpg" alt="Shop" data-pin-nopin="true">
+				  <div class="container">
+					<div class="carousel2-caption">
+					<h1 class="shop">Our Product Selection</h1>
+					  <p class="shop">Browse our selection of products and find the equipment that suits your needs.</p>
+					  <p><a class="btn btn-lg btn-primary" href="http://www.epi.ro/shop/ro/" target="_blank" role="button">Our Catalogue</a></p>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
 
 <div id="partners1" class="container-fluid">
 	<div class="row">
@@ -345,23 +432,6 @@
         </div>
 		
     </div>
-
-	
-<div id="shopbanner" class="carousel2 slide" data-ride="carousel" style="margin-top: 40px;">
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/shop2.jpg" alt="Shop" data-pin-nopin="true">
-          <div class="container">
-            <div class="carousel2-caption">
-			<h1 class="shop">Our Product Selection</h1>
-              <p class="shop">Browse our selection of products and find the equipment that suits your needs.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://www.epi.ro/shop/ro/" target="_blank" role="button">Our Catalogue</a></p>
-            </div>
-          </div>
-        </div>
-    </div>
-</div>
-
 	
 </div>	
 	
@@ -422,7 +492,7 @@
 <div id="mc_embed_signup">
 <form action="http://epi.us14.list-manage.com/subscribe/post?u=f2ea61aa467996ae13ab7fda9&amp;id=5c71378f2c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to our mailing list</label><br>
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f2ea61aa467996ae13ab7fda9_5c71378f2c" tabindex="-1" value=""></div>
