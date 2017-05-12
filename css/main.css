@@ -798,3 +798,33 @@ img#natinstruments-logo.img-responsive {
 }
 
 /* END NATIONAL INSTRUMENTS PAGE */
+
+
+/* START LIFE SCIENCE PAGE */
+
+div.pdf-download {
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+img.icon-pdf {
+	float: left;
+	max-height: 44px;
+}
+
+a.pdf-link {
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	color: #128f87;
+	font-weight: bold;
+}
+
+img#nanovex1.img-responsive {
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* END LIFE SCIENCE PAGE */
