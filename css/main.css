@@ -827,4 +827,98 @@ img#nanovex1.img-responsive {
 	margin-right: auto;
 }
 
+p#nanovex-title {
+	font-size: 18px;
+	color: #f05a1b;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
+p#nanovex-subtitle {
+	font-size: 18px;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
+div#thumb-nano.thumbnail {
+	border: 1px solid #f05a1b;
+	padding: 0px;
+}
+
+a#nano-btn.btn.btn-block {
+	border: 1px solid #f05a1b;
+	background-color: #f05a1b;
+}
+
+a#nano-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #f05a1b;
+}
+
+p.subtitle2-nano {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 183px;
+	height: 183px;
+}
+
+p#bioquochem-title {
+	font-size: 18px;
+	color: #5C2684;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
+p#bioquochem-subtitle {
+	font-size: 18px;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
+div#thumb-bio.thumbnail {
+	border: 1px solid #5C2684;
+	padding: 0px;
+}
+
+a#bio-btn.btn.btn-block {
+	border: 1px solid #5C2684;
+	background-color: #5C2684;
+}
+
+a#bio-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #5C2684;
+}
+
+p.subtitle2-bio {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 70px;
+	height: 70px;
+}
+
 /* END LIFE SCIENCE PAGE */
