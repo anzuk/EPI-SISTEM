@@ -596,7 +596,17 @@ a#caption-btn.btn.btn-block:hover {
 	border: 1px solid #128f87;
 }
 
+div#products-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
 
+@media (max-width: 978px) {
+	div#products-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
 
 /* END PRODUCTS CSS */
 
