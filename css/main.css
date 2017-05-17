@@ -922,3 +922,136 @@ p.subtitle2-bio {
 }
 
 /* END LIFE SCIENCE PAGE */
+
+/* START EDUCATION KITS PAGE */
+
+img#einstein-logo.img-responsive {
+	max-height: 120px;
+	width: auto;
+}
+
+img#einstein1.img-responsive {
+	max-height: 120px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p#einstein-subtitle {
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+div#thumb-ein.thumbnail {
+	border: 1px solid #0181ca;
+	padding: 0px;
+}
+
+p.subtitle2-ein {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 85px;
+	height: 85px;
+}
+
+a#ein-btn.btn.btn-block {
+	border: 1px solid #0081ca;
+	background-color: #0081ca;
+}
+
+a#ein-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #0081ca;
+}
+
+img#hfc-logo.img-responsive {
+	max-height: 100px;
+	width: auto;
+}
+
+p#hfc-title {
+	padding-top: 50px;
+	color: #1987B6;
+}
+
+#ein-glyiphicon {
+	color: #16a1dc;
+}
+
+p#hfc-subtitle2.subtitle2 {
+	text-align: left;
+	color: #555555;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+div#thumb-hfc.thumbnail {
+	border: 1px solid #1987B6;
+	padding: 0px;
+}
+
+p.subtitle2-hfc {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 70px;
+	height: 70px;
+}
+
+a#hfc-btn.btn.btn-block {
+	border: 1px solid #1987B6;
+	background-color: #1987B6;
+}
+
+a#hfc-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #1987B6;
+}
+
+img#kh-logo.img-responsive {
+	max-height: 150px;
+	width: auto;
+}
+
+p#kh-title {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: #E55A19;
+}
+
+img#kh1.img-responsive {
+	max-height: 500px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+div#thumb-kh.thumbnail {
+	border: 1px solid #E55A19;
+	padding: 0px;
+}
+
+p.subtitle2-kh {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 85px;
+	height: 85px;
+}
+
+a#kh-btn.btn.btn-block {
+	border: 1px solid #E55A19;
+	background-color: #E55A19;
+}
+
+a#ka-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #E55A19;
+}
+
+/* END EDUCATION KITS PAGE */
