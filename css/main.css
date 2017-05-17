@@ -850,6 +850,18 @@ p#nanovex-subtitle {
 	line-height: 1.6;
 }
 
+div#nv-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#nv-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
 div#thumb-nano.thumbnail {
 	border: 1px solid #f05a1b;
 	padding: 0px;
@@ -942,6 +954,18 @@ p#einstein-subtitle {
 	margin-bottom: 50px;
 }
 
+div#ein-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#ein-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
 div#thumb-ein.thumbnail {
 	border: 1px solid #0181ca;
 	padding: 0px;
@@ -976,7 +1000,7 @@ p#hfc-title {
 	color: #1987B6;
 }
 
-#ein-glyiphicon {
+#hfc-glyiphicon {
 	color: #16a1dc;
 }
 
@@ -985,6 +1009,18 @@ p#hfc-subtitle2.subtitle2 {
 	color: #555555;
 	padding-bottom: 15px;
 	padding-top: 15px;
+}
+
+div#hfc-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#hfc-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
 }
 
 div#thumb-hfc.thumbnail {
@@ -1055,3 +1091,179 @@ a#ka-btn.btn.btn-block:hover {
 }
 
 /* END EDUCATION KITS PAGE */
+
+/* START MEASURING SYSTEMS PAGE */
+
+img#ni-logo.img-responsive {
+	max-height: 90px;
+	width: auto;
+}
+
+p#ni-title {
+	color: #065fa3;
+	text-align: left;
+	padding-left: 15px;
+}
+
+img#ni1.img-responsive {
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 130px;
+	width: auto;
+	margin-bottom: 30px;
+}
+
+div#thumb-ni.thumbnail {
+	border: 1px solid #065fa3;
+	padding: 0px;
+}
+
+p.subtitle2-ni {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 85px;
+	height: 85px;
+}
+
+a#ni-btn.btn.btn-block {
+	border: 1px solid #065fa3;
+	background-color: #065fa3;
+}
+
+a#ni-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #065fa3;
+}
+
+div#ni-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#ni-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+img#ni2.img-responsive {
+	max-height: 200px;
+	width: auto;
+	margin-left: auto;
+}
+
+#ni-glyiphicon {
+	color: #065fa3;
+}
+
+img#lj-logo.img-responsive {
+	max-height: 60px;
+	width: auto;
+}
+
+p#lj-title {
+	color: #701313;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 40px;
+}
+
+div#thumb-lj.thumbnail {
+	border: 1px solid #701313;
+	padding: 0px;
+}
+
+p.subtitle2-lj {
+	font-size: 12px;
+	color: #95989A;
+	padding-top: 15px;
+	min-height: 85px;
+	height: 85px;
+}
+
+a#lj-btn.btn.btn-block {
+	border: 1px solid #701313;
+	background-color: #701313;
+}
+
+a#lj-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #701313;
+}
+
+div#lj-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#lj-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+img#om-logo.img-responsive {
+	max-height: 60px;
+	width: auto;
+}
+
+p#om-title {
+	color: #006BB5;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 40px;
+}
+
+div#thumb-om.thumbnail {
+	border: 1px solid #006BB5;
+	padding: 0px;
+}
+
+li#om-list {
+	font-size: 12px;
+	padding-left: 20px;
+	color: #95989A;
+	text-align: left;
+	list-style-type: none;
+}
+
+li#om-list:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+div#om-caption.caption {
+	min-height: 120px;
+	height: 120px;
+}
+
+a#om-btn.btn.btn-block {
+	border: 1px solid #006BB5;
+	background-color: #006BB5;
+}
+
+a#om-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #006BB5;
+}
+
+div#om-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#om-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+/* END MEASURING SYSTEMS PAGE */
