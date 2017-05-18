@@ -636,6 +636,13 @@ p.subtitle2 {
     display: block;
 }
 
+.middle-title {
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /* START SUBSCRIBE STYLE */
 
 /* puts Mailchimp fields in a row */
