@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/epi.js"></script>
@@ -18,36 +18,36 @@
 
 <!-- Navbar -->
 
-<nav id="partners" class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="metrohm-autolab.html">METROHM-AUTOLAB</a></li>
-		<li><a href="dropsens.html">DROPSENS</a></li>
-		<li><a href="regatron.html">REGATRON</a></li>
-		<li><a href="national-instruments.html">NATIONAL INSTRUMENTS</a></li>
-		<li><a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a></li>
-      </ul>
-		</div>
+<header class="clearfix navbar-fixed-top">
+    <div class="container">
+			<div class="header-left">
+				<a class="navbar-brand" href="index.html"><img src="images/epi-logo-s-white.png" alt="EPI SISTEM"></a>
+			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="box" id="open">
+				<nav>
+					<a href="metrohm-autolab.html">METROHM-AUTOLAB</a>
+					<a href="dropsens.html">DROPSENS</a>
+					<a href="regatron.html">REGATRON</a>
+					<a href="national-instruments.html">NATIONAL INSTRUMENTS</a>
+					<a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a>
+		  		</nav>
+			</div>
 	</div>
-</nav>
+</header>
 
 <div id="regatron" class="container-fluid">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
-			<span class="underline">
+			<span class="underline" style="padding-bottom: 0px;">
 			<img id="regatron-logo" class="img-responsive" src="images/regatron/logo.png" alt="regatron" />
 			</span>
 		</div>
 	</div>
+	
 	<div class="row">
 		<div class="col-lg-4 col-lg-offset-1" style="margin-top: 25px;">
 		<img class="img-responsive" src="images/regatron/1.jpg" alt="regatron" />
@@ -60,50 +60,112 @@
 			<p class="subtitle">Active for over 47 years in the electronics manufacturing, Regatron AG has stored a remarkable experience in manufacturing high-quality modular programmable power supplies, and is appreciated by many world leaders who use TopCon in their factories or laboratories or research and development centers.</p>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="rg-content">
+	
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title"><br>TopCon TC.ACS AC source/sink supplies - full 4-quadrant grid simulator</p>
-			<a href="https://www.regatron.com/en/products-topcon/topcon-tc-acs/product-overview" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/2.jpg" alt="topcontc" />
-			</a>
-			<p class="regatron-subtitle">The increasing number of alternative power sources like solar, wind driven or biological energy systems call for consistent and well demanding regulations for energy feed into the utility grid. Manufacturers of such systems have to test and to prove the compliance of their equipment. Grid simulators form an electronic equivalent circuit for the grid, but allow to vary all relevant parameters in order to test the behaviour and response of the equipment under test.</p>
+				<div class="caption">
+					<p class="regatron-subtitle1">The increasing number of alternative power sources like solar, wind driven or biological energy systems call for consistent and well demanding regulations for energy feed into the utility grid. Manufacturers of such systems have to test and to prove the compliance of their equipment. Grid simulators form an electronic equivalent circuit for the grid, but allow to vary all relevant parameters in order to test the behaviour and response of the equipment under test.</p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/topcon-tc-acs/product-overview" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title">Application software for TopCon programmable power supplies and simulators</p>
-			<a href="https://www.regatron.com/en/products-topcon/software-products" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/3.jpg" alt="appsoftware" />
-			</a>
-			<p class="regatron-subtitle">The TopCon hardware is fully digitally controlled and can thus be programmed in various ways. This section keeps information on the general topics with regard to controlling the TopCon hardware as well as specialized software, predominantly for automation purposes (e.g. automated tests according to relevant standards).</p>
+				<div class="caption">
+					<p class="regatron-subtitle1">The TopCon hardware is fully digitally controlled and can thus be programmed in various ways. This section keeps information on the general topics with regard to controlling the TopCon hardware as well as specialized software, predominantly for automation purposes (e.g. automated tests according to relevant standards).</p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/software-products" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title"><br>TC.GSS bidirectional AC/DC programmable power supplies, 2-Q</p>
-			<a href="https://www.regatron.com/en/products-topcon/bidirectional-power-supply-gss/product-overview" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/4.jpg" alt="tcgss" />
-			</a>
-			<p class="regatron-subtitle">REGATRON manufactures a  series of integrated current-bidirectional power sources named TC.GSS. This series combines the excellent technical data of well-known TopCon DC power supplies with modern grid-tie inverter technology in order to handle both current flows from and towards the load. The modular TopCon concept is still maintained, so a finely graduated variety in terms of voltages and power is on the customer’s disposal. TC.GSS, TC.GXS and TC.GSX are intended to fit the same 19” cabinet like the today’s TopCon DC power supply family.</p>
+				<div class="caption">
+					<p class="regatron-subtitle1">REGATRON manufactures a  series of integrated current-bidirectional power sources named TC.GSS. This series combines the excellent technical data of well-known TopCon DC power supplies with modern grid-tie inverter technology in order to handle both current flows from and towards the load. The modular TopCon concept is still maintained, so a finely graduated variety in terms of voltages and power is on the customer’s disposal. TC.GSS, TC.GXS and TC.GSX are intended to fit the same 19” cabinet like the today’s TopCon DC power supply family.</p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/bidirectional-power-supply-gss/product-overview" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="rg-content">
+	
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title">TopCon Quadro AC/DC programmable power supply TC.P, 1-Q</p>
-			<a href="https://www.regatron.com/en/products-topcon/topcon-quadro-tc-p/topcon-product-overview" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/5.jpg" alt="topconquadro" />
-			</a>
-			<p class="regatron-subtitle">The primary switched compact power supplies from Regatron provide excellent dynamics of output voltage, -current, -power and internal resistance simulation. This is the result of the uncompromised use of digital signal processors in an optimized multi-processor architecture and of a full digital controller structure. Typical system response times with ohmic loads are under 1 ms, with mixed ohmic / inductive loads around 1 to 2 ms.</p>
+				<div class="caption">
+					<p class="regatron-subtitle2">The primary switched compact power supplies from Regatron provide excellent dynamics of output voltage, -current, -power and internal resistance simulation. This is the result of the uncompromised use of digital signal processors in an optimized multi-processor architecture and of a full digital controller structure. Typical system response times with ohmic loads are under 1 ms, with mixed ohmic / inductive loads around 1 to 2 ms.</p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/topcon-quadro-tc-p/topcon-product-overview" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title">TopCon systems in cabinets and racks for power up to megawatts</p>
-			<a href="https://www.regatron.com/en/products-topcon/systems" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/6.jpg" alt="topconsystems" />
-			</a>
-			<p class="regatron-subtitle">The term "TopCon System" denotes a power supply that is assembled into a cabinet. Using a cabinet allows for the integration of several TopCon devices, possibly linked to  TC.LIN systems or with an integrated Q4  or Q3 functional unit. </p>
+				<div class="caption">
+					<p class="regatron-subtitle2">The term "TopCon System" denotes a power supply that is assembled into a cabinet. Using a cabinet allows for the integration of several TopCon devices, possibly linked to  TC.LIN systems or with an integrated Q4  or Q3 functional unit. </p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/systems" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="regatron-title">TC.LIN linear high-precision post-processors, DC/DC 1-Q</p>
-			<a href="https://www.regatron.com/en/products-topcon/topcon-quadro-tc-p/tc-lin-linear-postprocessor" target="_blank">
+			<div class="thumbnail" id="thumb-rg">
 				<img class="img-responsive" src="images/regatron/7.jpg" alt="tclin" />
-			</a>
-			<p class="regatron-subtitle">Solar Array Simulation is one important part of testing solar inverters. One of the most important characteristics is the ability to find and track the operating point where the maximum of energy offered by the solar cell: this is called to find/track the maximum power point (MPP).</p>
+				<div class="caption">
+					<p class="regatron-subtitle2">Solar Array Simulation is one important part of testing solar inverters. One of the most important characteristics is the ability to find and track the operating point where the maximum of energy offered by the solar cell: this is called to find/track the maximum power point (MPP).</p>
+				</div>
+				<div class="caption-button">
+					<a href="https://www.regatron.com/en/products-topcon/topcon-quadro-tc-p/tc-lin-linear-postprocessor" id="rg-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	

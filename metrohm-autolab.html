@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/epi.js"></script>
@@ -18,32 +18,31 @@
 
 <!-- Navbar -->
 
-<nav id="partners" class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="metrohm-autolab.html">METROHM-AUTOLAB</a></li>
-		<li><a href="dropsens.html">DROPSENS</a></li>
-		<li><a href="regatron.html">REGATRON</a></li>
-		<li><a href="national-instruments.html">NATIONAL INSTRUMENTS</a></li>
-		<li><a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a></li>
-      </ul>
-		</div>
+<header class="clearfix navbar-fixed-top">
+    <div class="container">
+			<div class="header-left">
+				<a class="navbar-brand" href="index.html"><img src="images/epi-logo-s-white.png" alt="EPI SISTEM"></a>
+			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="box" id="open">
+				<nav>
+					<a href="metrohm-autolab.html">METROHM-AUTOLAB</a>
+					<a href="dropsens.html">DROPSENS</a>
+					<a href="regatron.html">REGATRON</a>
+					<a href="national-instruments.html">NATIONAL INSTRUMENTS</a>
+					<a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a>
+		  		</nav>
+			</div>
 	</div>
-</nav>
+</header>
 
 <div id="metrohm-autolab" class="container-fluid">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
-			<span class="underline">
+			<span class="underline" style="padding-bottom: 0px;">
 			<img id="metrohm-logo" class="img-responsive" src="images/autolab/logo.png" alt="metrohm-autolab-bv" />
 			</span>
 		</div>
@@ -57,73 +56,173 @@
 			<p class="subtitle">We provide since 2002 electrochemical solutions based on AUTOLAB equipments and accessories having over 50 units sold for research and education purposes.</p>
 		</div>
 	</div>
+	
 	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="pdf-download" style="padding-top: 30px; padding-bottom: 60px;">
+				<img src="images/pdf.png" alt="pdf" class="icon-pdf" /><a href="#" class="pdf-link">DOWNLOAD LATEST METROHM AUTOLAB CATALOG</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row" id="ma-content">
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">N Series Autolab Instruments</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/NSeriesFolder/NSeries" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/2.jpg" alt="n-series" />
-			</a>
-			<p class="metrohm-subtitle">The top of the range modular potentiostat/galvanostat instruments</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">The top of the range modular potentiostat/galvanostat instruments</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/NSeriesFolder/NSeries" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Multi Autolab Systems</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/MultiAutolab/MultiAutolab.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/3.jpg" alt="multi-sistems" />
-			</a>
-			<p class="metrohm-subtitle">Multi channel potentiostat/ galvanostat instruments with modular extensions</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Multi channel potentiostat/ galvanostat instruments with modular extensions</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/MultiAutolab/MultiAutolab.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Autolab Modules</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/ModulesFolder/Modules.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/4.jpg" alt="modules" />
-			</a>
-			<p class="metrohm-subtitle">Extensions for the modular potentiostat/galvanostat instruments</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Extensions for the modular potentiostat/galvanostat instruments</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/ModulesFolder/Modules.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="ma-content">
+	
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Compact Autolab Instruments</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/CompactNonModular/CompactSeries.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/5.jpg" alt="compact-instruments" />
-			</a>
-			<p class="metrohm-subtitle">Compact, small footprint and high quality potentiostat/ galvanostat instruments</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Compact, small footprint and high quality potentiostat/ galvanostat instruments</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/CompactNonModular/CompactSeries.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Portable potentiostats</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/PortablePot/PortablePotentiostats.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/6.jpg" alt="portable-potentiostats" />
-			</a>
-			<p class="metrohm-subtitle">Portable potentiostats for entry level electrochemistry</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Portable potentiostats for entry level electrochemistry</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/PortablePot/PortablePotentiostats.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Software</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/Software/Software.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/7.jpg" alt="software" />
-			</a>
-			<p class="metrohm-subtitle">Autolab NOVA and SDK - data acquisition and data analysis software</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Autolab NOVA and SDK - data acquisition and data analysis software</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/Software/Software.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="ma-content">
+	
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Accessories</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/Accessories/accessories.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/8.jpg" alt="accessories" />
-			</a>
-			<p class="metrohm-subtitle">Cells, electrodes and accessories for electrochemistry</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Cells, electrodes and accessories for electrochemistry</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/Accessories/accessories.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title" style="font-size:16px; padding-top:43px; padding-bottom:10px">Solutions for fast temperature control</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/TemperatureControl/AutolabRHD.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/9.jpg" alt="fast-temperature-control" />
-			</a>
-			<p class="metrohm-subtitle">Complete solutions for temperature controlled measurements</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Complete solutions for temperature controlled measurements</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/TemperatureControl/AutolabRHD.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="metrohm-title">Special Application Instruments</p>
-			<a href="http://www.metrohm-autolab.com/Products/Echem/SpecialApplications/Specials.html" target="_blank">
+			<div class="thumbnail" id="thumb-ma">
 				<img class="img-responsive" src="images/autolab/10.jpg" alt="special-application-instruments" />
-			</a>
-			<p class="metrohm-subtitle">Electrochemical instrumentation for special applications</p>
+				<div class="caption">
+					<p class="metrohm-subtitle">Electrochemical instrumentation for special applications</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://www.metrohm-autolab.com/Products/Echem/SpecialApplications/Specials.html" id="ma-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

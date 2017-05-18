@@ -78,7 +78,7 @@ a{
 nav>a{
 	position: relative;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 40px;
 	padding: 0 1.1em;
 	-webkit-transition: all .3s ease;
@@ -110,7 +110,7 @@ a.products-content {
     border-bottom: 5px solid #128f87;
     color: white;
     padding: 16px;
-    font-size: 14px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
 }
@@ -630,6 +630,12 @@ p.subtitle2 {
 
 /* END Services CSS */
 
+.thumbnail img{
+	width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* START SUBSCRIBE STYLE */
 
 /* puts Mailchimp fields in a row */
@@ -687,17 +693,50 @@ p.metrohm-title {
 	padding-bottom: 10px;
 	font-weight: bold;
 	color: #128f87;
-}
-
-p.metrohm-subtitle {
-	font-size: 16px;
-	padding-top: 20px;
+	max-width: 300px;
 }
 
 img#metrohm-logo.img-responsive {
 	height: 150px;
 	width: auto;
 	padding: 25px;
+}
+
+div#ma-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#ma-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+div#thumb-ma.thumbnail {
+	border: 1px solid #128f87;
+	padding: 0px;
+	width: 100%;
+	max-width: 300px;
+}
+
+a#ma-btn.btn.btn-block {
+	border: 1px solid #128f87;
+	background-color: #128f87;
+}
+
+a#ma-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #128f87;
+}
+
+p.metrohm-subtitle {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
 }
 
 /* END METROHM-AUTOLAB PAGE */
@@ -720,12 +759,7 @@ p.dropsens-title {
 	padding-bottom: 10px;
 	font-weight: bold;
 	color: #00afef;
-}
-
-p.dropsens-subtitle {
-	font-size: 16px;
-	padding-top: 20px;
-	text-align: justify;
+	max-width: 300px;
 }	
 	
 img#dropsens-logo.img-responsive {
@@ -733,7 +767,65 @@ img#dropsens-logo.img-responsive {
 	width: auto;
 	padding: 25px;
 }
-	
+
+a#drp-link {
+	color: #00afef;
+}
+
+div#drp-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#drp-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+div#thumb-drp.thumbnail {
+	border: 1px solid #00afef;
+	padding: 0px;
+	width: 100%;
+	max-width: 300px;
+}
+
+a#drp-btn.btn.btn-block {
+	border: 1px solid #00afef;
+	background-color: #00afef;
+}
+
+a#drp-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #00afef;
+}
+
+p.dropsens-subtitle1 {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
+	height: 420px;
+}
+
+p.dropsens-subtitle2 {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
+	height: 220px;
+}
+
+p.dropsens-subtitle3 {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
+	height: 380px;
+}
+
 /* END DROPSENS PAGE */
 
 /* START REGATRON PAGE */
@@ -743,23 +835,64 @@ div#regatron.container-fluid {
 }
 
 p.regatron-title {
-	font-size: 18px;
+	font-size: 14px;
 	padding-top: 40px;	
 	padding-bottom: 10px;
 	font-weight: bold;
 	color: #01a6ff;
-}
-
-p.regatron-subtitle {
-	font-size: 16px;
-	padding-top: 20px;
-	text-align: justify;
+	max-width: 300px;
 }	
 	
 img#regatron-logo.img-responsive {
-	height: 150px;
+	max-height: 120px;
 	width: auto;
 	padding: 25px;
+}
+
+div#rg-content.row {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+@media (max-width: 978px) {
+	div#rg-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+div#thumb-rg.thumbnail {
+	border: 1px solid #01a6ff;
+	padding: 0px;
+	width: 100%;
+	max-width: 300px;
+}
+
+a#rg-btn.btn.btn-block {
+	border: 1px solid #01a6ff;
+	background-color: #01a6ff;
+}
+
+a#rg-btn.btn.btn-block:hover {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #01a6ff;
+}
+
+p.regatron-subtitle1 {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
+	height: 370px;
+}
+
+p.regatron-subtitle2 {
+	font-size: 16px;
+	text-align: justify;
+	color: #95989A;
+	padding-top: 15px;
+	height: 300px;
 }
 
 /* END REGATRON PAGE */
@@ -772,7 +905,7 @@ div#natinstruments.container-fluid {
 
 p.natinstruments-title {
 	font-size: 24px;
-	padding-top: 40px;	
+	padding-top: 20px;	
 	padding-bottom: 10px;
 	font-weight: bold;
 	color: #065fa3;
@@ -805,6 +938,10 @@ img#natinstruments-logo.img-responsive {
 	height: 140px;
 	width: auto;
 	padding: 25px;
+}
+
+a#ni-link {
+	color: #065fa3;
 }
 
 /* END NATIONAL INSTRUMENTS PAGE */
@@ -875,6 +1012,8 @@ div#nv-content.row {
 div#thumb-nano.thumbnail {
 	border: 1px solid #f05a1b;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 a#nano-btn.btn.btn-block {
@@ -892,8 +1031,7 @@ p.subtitle2-nano {
 	font-size: 12px;
 	color: #95989A;
 	padding-top: 15px;
-	min-height: 183px;
-	height: 183px;
+	min-height: 180px;
 }
 
 p#bioquochem-title {
@@ -922,6 +1060,8 @@ p#bioquochem-subtitle {
 div#thumb-bio.thumbnail {
 	border: 1px solid #5C2684;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 a#bio-btn.btn.btn-block {
@@ -979,6 +1119,8 @@ div#ein-content.row {
 div#thumb-ein.thumbnail {
 	border: 1px solid #0181ca;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 p.subtitle2-ein {
@@ -1010,6 +1152,10 @@ p#hfc-title {
 	color: #1987B6;
 }
 
+img#hfc1.img-responsive {
+	max-width: 400px;
+}
+
 #hfc-glyiphicon {
 	color: #16a1dc;
 }
@@ -1036,6 +1182,8 @@ div#hfc-content.row {
 div#thumb-hfc.thumbnail {
 	border: 1px solid #1987B6;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 p.subtitle2-hfc {
@@ -1079,6 +1227,8 @@ img#kh1.img-responsive {
 div#thumb-kh.thumbnail {
 	border: 1px solid #E55A19;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 p.subtitle2-kh {
@@ -1126,6 +1276,8 @@ img#ni1.img-responsive {
 div#thumb-ni.thumbnail {
 	border: 1px solid #065fa3;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 p.subtitle2-ni {
@@ -1184,6 +1336,8 @@ p#lj-title {
 div#thumb-lj.thumbnail {
 	border: 1px solid #701313;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 p.subtitle2-lj {
@@ -1232,6 +1386,8 @@ p#om-title {
 div#thumb-om.thumbnail {
 	border: 1px solid #006BB5;
 	padding: 0px;
+	width: 100%;
+	max-width: 300px;
 }
 
 li#om-list {
