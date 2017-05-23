@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/epi.js"></script>
+	<link rel="icon" type="image/png" href="images/epi-icon.png">
   
   <!-- CSS Style -->
   <link href="css/main.css" rel="stylesheet">
@@ -18,27 +19,27 @@
 
 <!-- Navbar -->
 
-<nav id="partners" class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="metrohm-autolab.html">METROHM-AUTOLAB</a></li>
-		<li><a href="dropsens.html">DROPSENS</a></li>
-		<li><a href="regatron.html">REGATRON</a></li>
-		<li><a href="national-instruments.html">NATIONAL INSTRUMENTS</a></li>
-		<li><a href="http://www.epi.ro/shop/ro/" target="_blank">PRODUCT CATALOG</a></li>
-      </ul>
-		</div>
+<header class="clearfix navbar-fixed-top">
+    <div class="container">
+			<div class="header-left">
+				<a class="navbar-brand" href="index.html"><img src="images/epi-logo-s-white.png" alt="EPI SISTEM"></a>
+			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="box" id="open">
+				<nav>
+					<a href="metrohm-autolab.html">METROHM-AUTOLAB</a>
+					<a href="dropsens.html">DROPSENS</a>
+					<a href="regatron.html">REGATRON</a>
+					<a href="national-instruments.html">NATIONAL INSTRUMENTS</a>
+					<a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a>
+		  		</nav>
+			</div>
 	</div>
-</nav>
+</header>
+
 
 <div id="dropsens" class="container-fluid">
 	<div class="row">
@@ -49,83 +50,167 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 col-lg-offset-1" style="margin-top: 25px;">
+		<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1" style="margin-top: 25px;">
 		<img class="img-responsive" src="images/dropsens/1.jpg" alt="dropsens" />
 		</div>
-		<div class="col-lg-6" style="margin-top: 25px;">
+		<div class="col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0" style="margin-top: 25px;">
 			<p class="subtitle">DropSens is an Innovative Technology-Based Firm specialized in the design and manufacture of instruments for Electrochemistry Research, based in Asturias, Spain.</p>
 			<p class="subtitle">DropSens offers the researcher, through an intensive and continuous R&D, innovative electrochemical tools with the aim of giving flexible, user-friendly, portable and effective products.</p>
-			<p class="subtitle">At DropSens we develop <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank">screen-printed electrodes</a>, based on thick-film hybrid technology, with the aim of providing researchers with a powerful tool for the development of electrochemical sensors of diverse nature: chemical, enzyme, immune and genosensors, etc. These sensors are aimed for important applications in different fields, from environmental to clinical analysis. <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank">Screen-printed electrodes</a> offer a number of advantages versus conventional electrodes: they are suitable for working with microvolumes and for decentralized assays (point-of-care tests, in-situ monitoring, etc.).</p>
+			<p class="subtitle">At DropSens we develop <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank" id="drp-link">screen-printed electrodes</a>, based on thick-film hybrid technology, with the aim of providing researchers with a powerful tool for the development of electrochemical sensors of diverse nature: chemical, enzyme, immune and genosensors, etc. These sensors are aimed for important applications in different fields, from environmental to clinical analysis. <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank" id="drp-link">Screen-printed electrodes</a> offer a number of advantages versus conventional electrodes: they are suitable for working with microvolumes and for decentralized assays (point-of-care tests, in-situ monitoring, etc.).</p>
 		</div>
-		<div class="col-lg-10 col-lg-offset-1">
-			<p class="subtitle">We have focused in the design and development of portable <a href="http://dropsens.com/en/potentiostats_pag.html" target="_blank">potentiostats</a> which offer the main electrochemical techniques while retaining the accuracy of bigger instruments, offering an easy-to-use computer interface.</p>
-			<p class="subtitle">The combination of electrochemical and optical techniques allows performing spectroelectrochemical measurements. <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank">Spectroelectrochemistry</a> is a useful solution for many different research fields, including materials characterization, photochemical energy conversion or photovoltaic cells. <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank">SPELEC</a> instrument combines a bipotentiostat/galvanostat with a spectrometer and a light source. An <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank">integrated solution</a> with dedicated software and accessories is now available.</p>
-			<p class="subtitle">Also <a href="http://dropsens.com/en/electrochemiluminescence_instruments.html" target="_blank">µSTAT ECL</a> allows you to perform synchronized electrochemical and electrochemilumisescence analysis with <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank">screen-printed electrodes</a>.</p>
+		<div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<p class="subtitle">We have focused in the design and development of portable <a href="http://dropsens.com/en/potentiostats_pag.html" target="_blank" id="drp-link">potentiostats</a> which offer the main electrochemical techniques while retaining the accuracy of bigger instruments, offering an easy-to-use computer interface.</p>
+			<p class="subtitle">The combination of electrochemical and optical techniques allows performing spectroelectrochemical measurements. <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank" id="drp-link">Spectroelectrochemistry</a> is a useful solution for many different research fields, including materials characterization, photochemical energy conversion or photovoltaic cells. <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank" id="drp-link">SPELEC</a> instrument combines a bipotentiostat/galvanostat with a spectrometer and a light source. An <a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank" id="drp-link">integrated solution</a> with dedicated software and accessories is now available.</p>
+			<p class="subtitle">Also <a href="http://dropsens.com/en/electrochemiluminescence_instruments.html" target="_blank" id="drp-link">µSTAT ECL</a> allows you to perform synchronized electrochemical and electrochemilumisescence analysis with <a href="http://dropsens.com/en/screen_printed_electrodes_pag.html" target="_blank" id="drp-link">screen-printed electrodes</a>.</p>
+			<div class="pdf-download">
+				<img src="images/pdf.png" alt="pdf" class="icon-pdf" /><a href="#" class="pdf-link">DOWNLOAD LATEST DROPSENS CATALOG</a>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="drp-content">
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title"><br>Potentiostats</p>
-			<a href="http://dropsens.com/en/potentiostats_pag.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/2.jpg" alt="potentiostats" />
-			</a>
-			<p class="dropsens-subtitle">Useful for in situ or field electrochemical analysis, µStat portable potentiostats can be used with our screen-printed electrodes or with any other conventional electrode. 
-			<br><br>Controlled by DropView Software which provides powerful functions such as experimental control, graphs or file handling, among others.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle1">Useful for in situ or field electrochemical analysis, µStat portable potentiostats can be used with our screen-printed electrodes or with any other conventional electrode. 
+					<br><br>Controlled by DropView Software which provides powerful functions such as experimental control, graphs or file handling, among others.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/potentiostats_pag.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title">ElectroChemiLuminescence Instruments and Accessories</p>
-			<a href="http://dropsens.com/en/electrochemiluminescence_instruments.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/3.jpg" alt="electrochemiluminescenceinstruments" />
-			</a>
-			<p class="dropsens-subtitle">Useful equipments for combined electrochemical and electrochemiluminescence analysis to be used with our screen-printed electrodes.
-			<br><br>DropView 8400 is the powerful software that controls the equipment, allowing perfect experiment synchronization and superior performance in terms of data treatment, including functions such as combined experimental control, advanced file handling of electrochemical and electrochemiluminescence measurements, among many others.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle1">Useful equipments for combined electrochemical and electrochemiluminescence analysis to be used with our screen-printed electrodes.
+					<br><br>DropView 8400 is the powerful software that controls the equipment, allowing perfect experiment synchronization and superior performance in terms of data treatment, including functions such as combined experimental control, advanced file handling of electrochemical and electrochemiluminescence measurements, among many others.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/electrochemiluminescence_instruments.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+	
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title">Spectroelectrochemical Instruments and Accessories </p>
-			<a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/4.jpg" alt="spectroelectrochemicalinstruments" />
-			</a>
-			<p class="dropsens-subtitle">Useful equipments for combined electrochemical and optical analysis, they can be used with our screen-printed electrodes or with any other conventional electrode.
-			<br><br>The NEW DropView SPELEC Software is the powerful spectroelectrochemical software tool that controls the equipment, allowing perfect experiment synchronization and superior performance in terms of data treatment, including functions such as combined experimental control, real time spectra display, advanced file handling of electrochemical and optical measurements, among many others.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle1">Useful equipments for combined electrochemical and optical analysis, they can be used with our screen-printed electrodes or with any other conventional electrode.
+					<br><br>The NEW DropView SPELEC Software is the powerful spectroelectrochemical software tool that controls the equipment, allowing perfect experiment synchronization and superior performance in terms of data treatment, including functions such as combined experimental control, real time spectra display, advanced file handling of electrochemical and optical measurements, among many others.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/spectroelectrochemical_instruments.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="drp-content">
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title"><br>Screen-printed Electrodes</p>
-			<a href="http://dropsens.com/en/potentiostats_pag.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/5.jpg" alt="screenprintedelectrodes" />
-			</a>
-			<p class="dropsens-subtitle">Screen-printed electrodes made of carbon, gold, platinum, silver, carbon Nanotubes or gold nanoparticles based inks. Innovative strips manufactured for electrochemical analysis in environmental, clinical or agri-food areas.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle2">Screen-printed electrodes made of carbon, gold, platinum, silver, carbon Nanotubes or gold nanoparticles based inks. Innovative strips manufactured for electrochemical analysis in environmental, clinical or agri-food areas.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/potentiostats_pag.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title">Interdigitated Electrodes / Microelectrodes </p>
-			<a href="http://dropsens.com/en/interdigitated_electrodes.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/6.jpg" alt="interdigitatedelectrodes" />
-			</a>
-			<p class="dropsens-subtitle">Gold and Platinum interdigitated electrodes (IDEs) made on a glass substrate, with two available dimensions for bands/gaps: 5 µm and 10 µm. They allow working with low volumes of sample, being suitable for decentralized assays, to develop specific (bio)sensors and other electrochemical studies.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle2">Gold and Platinum interdigitated electrodes (IDEs) made on a glass substrate, with two available dimensions for bands/gaps: 5 µm and 10 µm. They allow working with low volumes of sample, being suitable for decentralized assays, to develop specific (bio)sensors and other electrochemical studies.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/interdigitated_electrodes.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-lg-offset-0">
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title"><br>Accessories</p>
-			<a href="http://dropsens.com/en/accesories_pag.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/7.jpg" alt="accessories" />
-			</a>
-			<p class="dropsens-subtitle">Wall-jet and thin layer flow-cells for flow injection analysis systems. Cell for batch analysis. Connectors between screen-printed electrodes and any kind of potentiostat. Magnetic support for screen-printed electrodes and microcentrifugue Tubes.</p>
+				<div class="caption">
+					<p class="dropsens-subtitle2">Wall-jet and thin layer flow-cells for flow injection analysis systems. Cell for batch analysis. Connectors between screen-printed electrodes and any kind of potentiostat. Magnetic support for screen-printed electrodes and microcentrifugue Tubes.</p>
+				</div>
+				<div class="caption-button">
+					<a href="http://dropsens.com/en/accesories_pag.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																						border-radius: 0px;
+																						
+																							">
+					Learn more</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-lg-3 col-lg-offset-1">
+	
+	<div class="row" id="drp-content">
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title">Nanomaterials. Electrochemical reagents. </p>
-			<a href="http://dropsens.com/en/carbon_nanotubes_pag.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/8.jpg" alt="nanomaterials" />
-			</a>
-			<p class="dropsens-subtitle">Graphene Oxide and Graphene solutions. Carbon Nanotubes . Carbon Nanofibres solution. Mesoporous Carbon solution. Metal Nanowires : Nickel, Gold, Platinum, Palladium. Innovative materials, useful for electrode surface modification and other applications.
-			<br><br>p- AminoPhenyl Phosphate, Hydroquinone Diphosphate and Phosphorylated Paracetamol : electrochemical substrates of Alkaline Phosphatase , useful when using AP as the electrochemical label in affinity assays and Quantum Dots.	</div>
-		<div class="col-lg-3 col-lg-offset-0">
+					<div class="caption">
+						<p class="dropsens-subtitle3">Graphene Oxide and Graphene solutions. Carbon Nanotubes . Carbon Nanofibres solution. Mesoporous Carbon solution. Metal Nanowires : Nickel, Gold, Platinum, Palladium. Innovative materials, useful for electrode surface modification and other applications.
+						<br><br>p- AminoPhenyl Phosphate, Hydroquinone Diphosphate and Phosphorylated Paracetamol : electrochemical substrates of Alkaline Phosphatase , useful when using AP as the electrochemical label in affinity assays and Quantum Dots.	</p>
+					</div>
+					<div class="caption-button">
+						<a href="http://dropsens.com/en/carbon_nanotubes_pag.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																							border-radius: 0px;
+																							
+																								">
+						Learn more</a>
+					</div>
+			</div>
+		</div>
+		
+		<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
 			<p class="dropsens-title"><br>Electrochemistry Lab Kits</p>
-			<a href="http://dropsens.com/en/practical_laboratory_kits_pag.html" target="_blank">
+			<div class="thumbnail" id="thumb-drp">
 				<img class="img-responsive" src="images/dropsens/9.jpg" alt="electrochemistrylabkits" />
-			</a>
-			<p class="dropsens-subtitle">Including outlines to carry out an experiment, the analyte and the SPEs to undertake the practical session. Suitable for Analytical Chemistry Courses (clinical, pharmaceutical, industrial and/or food analysis).</p>
+					<div class="caption">
+						<p class="dropsens-subtitle3">Including outlines to carry out an experiment, the analyte and the SPEs to undertake the practical session. Suitable for Analytical Chemistry Courses (clinical, pharmaceutical, industrial and/or food analysis).</p>
+					</div>
+					<div class="caption-button">
+						<a href="http://dropsens.com/en/practical_laboratory_kits_pag.html" id="drp-btn" target="_blank" class="btn btn-block" role="button" style="
+																							border-radius: 0px;
+																							
+																								">
+						Learn more</a>
+					</div>
+			</div>
 		</div>
 	</div>
 	

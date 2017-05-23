@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/epi.js"></script>
+	<link rel="icon" type="image/png" href="images/epi-icon.png">
   
   <!-- CSS Style -->
   <link href="css/main.css" rel="stylesheet">
@@ -18,45 +19,45 @@
 
 <!-- Navbar -->
 
-<nav id="partners" class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/epi-logo-s.png" alt="EPI SISTEM"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="metrohm-autolab.html">METROHM-AUTOLAB</a></li>
-		<li><a href="dropsens.html">DROPSENS</a></li>
-		<li><a href="regatron.html">REGATRON</a></li>
-		<li><a href="national-instruments.html">NATIONAL INSTRUMENTS</a></li>
-		<li><a href="http://www.epi.ro/shop/ro/" target="_blank">PRODUCT CATALOG</a></li>
-      </ul>
-		</div>
+<header class="clearfix navbar-fixed-top">
+    <div class="container">
+			<div class="header-left">
+				<a class="navbar-brand" href="index.html"><img src="images/epi-logo-s-white.png" alt="EPI SISTEM"></a>
+			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="box" id="open">
+				<nav>
+					<a href="metrohm-autolab.html">METROHM-AUTOLAB</a>
+					<a href="dropsens.html">DROPSENS</a>
+					<a href="regatron.html">REGATRON</a>
+					<a href="national-instruments.html">NATIONAL INSTRUMENTS</a>
+					<a href="http://www.epi.ro/shop/ro/" target="_blank">STOCK CATALOG</a>
+		  		</nav>
+			</div>
 	</div>
-</nav>
+</header>
 
 <div id="natinstruments" class="container-fluid">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
-			<span class="underline">
+			<span class="underline" style="padding-bottom: 0px;">
 			<img id="natinstruments-logo" class="img-responsive" src="images/natinstruments/logo.png" alt="natinstruments" />
 			</span>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 col-lg-offset-1" style="margin-top: 25px;">
+		<div class="col-lg-4 col-lg-offset-1" style="margin-top: 30px;">
 		<img class="img-responsive" src="images/natinstruments/1.jpg" alt="natinstruments" />
 		</div>
-		<div class="col-lg-6" style="margin-top: 25px;">
+		<div class="col-lg-6" style="margin-top: 30px;">
 			<p class="natinstruments-title">Accelerate Your Engineering</p>
-			<p class="subtitle">The NI platform comprises three key elements: productive software, modular hardware, and an expansive ecosystem. Software is the core element of this platform. It enables you to build the exact systems you need for your application. With the extensibility of this platform, you can build on your ideas and protect your investments by reusing your existing equipment more. Read how one expert compares the benefits of the NI software portfolio with a traditional OS.</p>
+			<p class="subtitle">The NI platform comprises three key elements: productive software, modular hardware, and an expansive ecosystem. Software is the core element of this platform. It enables you to build the exact systems you need for your application. With the extensibility of this platform, you can build on your ideas and protect your investments by reusing your existing equipment more. Read how one expert compares the benefits of the NI software portfolio with a traditional OS.</p>		
 		</div>
 	</div>
+	
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1">
 			<p class="natinstruments-title">LabWindows™/CVI</p>
@@ -85,36 +86,36 @@
 			<p class="natinstruments-subtitle">Explore the main features of LabWindows/CVI below.</p>
 		</div>
 		<div class="row">
-			<div class="col-lg-2 col-lg-offset-2">
-				<a href="http://www.ni.com/lwcvi/whatis/integrated/" target="_blank">
+			<div class="col-lg-3 col-lg-offset-2">
+				<a href="http://www.ni.com/lwcvi/whatis/integrated/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Integrated Environment</p>
 				</a>
-				<a href="http://www.ni.com/lwcvi/whatis/development/" target="_blank">
+				<a href="http://www.ni.com/lwcvi/whatis/development/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Productivity Tools</p>
 				</a>
-				<a href="http://www.ni.com/lwcvi/whatis/hardware/" target="_blank">
+				<a href="http://www.ni.com/lwcvi/whatis/hardware/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Hardware Connectivity</p>
 				</a>
 			</div>
-			<div class="col-lg-2 col-lg-offset-0">
-				<a href="http://www.ni.com/lwcvi/whatis/analysis/" target="_blank">
+			<div class="col-lg-3 col-lg-offset-0">
+				<a href="http://www.ni.com/lwcvi/whatis/analysis/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Advanced Data Analysis</p>
 				</a>
-				<a href="http://www.ni.com/lwcvi/whatis/ui/" target="_blank">
+				<a href="http://www.ni.com/lwcvi/whatis/ui/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">User Interface Components</p>
 				</a>
-				<a href="http://www.ni.com/white-paper/52789/en/" target="_blank">
+				<a href="http://www.ni.com/white-paper/52789/en/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Data Management</p>
 				</a>
 			</div>
-			<div class="col-lg-2 col-lg-offset-0">
-				<a href="http://www.ni.com/lwcvi/whatis/latest/" target="_blank">
+			<div class="col-lg-3 col-lg-offset-0">
+				<a href="http://www.ni.com/lwcvi/whatis/latest/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Multicore and Web</p>
 				</a>
-				<a href="http://www.ni.com/lwcvi/whatis/support/" target="_blank">
+				<a href="http://www.ni.com/lwcvi/whatis/support/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Multiplatform Support</p>
 				</a>
-				<a href="http://www.ni.com/lwcvi/whatis/teststand/" target="_blank">
+				<a href="http://www.ni.com/lwcvi/whatis/teststand/" target="_blank" id="ni-link">
 					<p class="natinstruments-subtitle">Automated Test</p>
 				</a>
 			</div>
