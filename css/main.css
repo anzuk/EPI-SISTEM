@@ -159,7 +159,7 @@ div.products-dropdown1:hover a.products-content {
 }
 
 /* Small monitor */
-@media (max-width: 979px){
+@media (max-width: 1024px){
 	nav>a{
 		padding: 0 1.5em;
 	}
@@ -182,6 +182,14 @@ div.products-dropdown1:hover a.products-content {
 	}
 	.learn-more{
 		margin: 0 auto;
+	}
+	
+	div.header-left {
+		width: 20%;
+	}
+	
+	div.header-right {
+		width: 80%;
 	}
 }
 
@@ -723,7 +731,7 @@ div#product-title.row {
 	border: 1px solid #128f87;
 	padding: 0px;
 	position: relative;
-	min-height: 277px;
+	min-height: 310px;
 }
 
 a.caption-btn.btn.btn-block {
@@ -918,7 +926,7 @@ nav#partners.navbar.navbar-default.navbar-fixed-top {
 
 /* START DROPSENS PAGE */
 
-div#dropsens.container-fluid {
+div.dropsens.container-fluid {
 	padding-top: 100px;
 }
 
@@ -931,26 +939,28 @@ p.dropsens-title {
 	max-width: 300px;
 }	
 	
-img#dropsens-logo.img-responsive {
-	height: 100px;
+img.dropsens-logo.img-responsive {
+	max-height: 100px;
 	width: auto;
 	padding: 25px;
 }
 
-a#drp-link {
+img.img-dropsens {
+	float: left;
+	max-height: 300px;
+	width: auto;
+	padding-right: 25px;
+	padding-left: 15px;
+	padding-bottom: 25px;
+}
+
+a.drp-link {
 	color: #00afef;
 }
 
-div#drp-content.row {
+div.drp-content.row {
 	padding-left: 150px;
 	padding-right: 150px;
-}
-
-@media (max-width: 978px) {
-	div#drp-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
 }
 
 div.thumb-drp1.thumbnail {
@@ -997,6 +1007,17 @@ p.dropsens-subtitle {
 	font-size: 14px;
 	color: #95989A;
 	padding-top: 15px;
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 978px) {
+	div#drp-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
 }
 
 /* END DROPSENS PAGE */
@@ -1242,7 +1263,7 @@ div.thumb-bio.thumbnail {
 	width: 100%;
 	max-width: 300px;
 	position: relative;
-	min-height: 300px;
+	min-height: 170px;
 }
 
 a.bio-btn.btn.btn-block {
