@@ -33,6 +33,7 @@ header{
 	top: -0.5em;
 	right: 0;
 	cursor: pointer;
+	padding-top: 30px;
 }
 .header-right span{
 	position: relative;
