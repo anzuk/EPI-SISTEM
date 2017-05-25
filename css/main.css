@@ -811,6 +811,28 @@ p.subtitle2 {
 	margin-left: auto;
 }
 
+@media (max-width: 480px) {
+	.underline {
+		padding: 20px 30px;
+	}
+	div.pdf-download {
+		padding-left: 0px !important;
+		font-size: 16px;
+	}
+	img.icon-pdf {
+		display: block;
+		float: none !important;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+	a.pdf-link {
+		float: none !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 /* START SUBSCRIBE STYLE */
 
 /* puts Mailchimp fields in a row */
@@ -960,8 +982,7 @@ a.drp-link {
 }
 
 div.drp-content.row {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 250px;
 }
 
 div.thumb-drp1.thumbnail {
@@ -1010,14 +1031,69 @@ p.dropsens-subtitle {
 	padding-top: 15px;
 }
 
-@media (max-width: 1024px) {
-	
+.bottom-column {
+	float: none;
+	display: table-cell;
+	vertical-align: bottom;
 }
 
-@media (max-width: 978px) {
-	div#drp-content.row {
-		padding: 0px;
-		padding: 0px;
+.bottom-column-drp {
+	float: none;
+	display: table-cell;
+	vertical-align: bottom;
+	max-width: 325px;
+	width: 50%;
+}
+
+@media (max-width: 1024px) {
+	div.drp-content.row {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.bottom-column-drp {
+		max-width: 310px;
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	div.drp-content.row {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	div.thumbnail.thumb-drp1 {
+		min-height: 590px;
+	}
+	div.thumbnail.thumb-drp2 {
+		min-height: 390px;
+	}
+	div.thumbnail.thumb-drp3 {
+		min-height: 530px;
+	}
+	.bottom-column-drp {
+		max-width: 250px;
+		width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.bottom-column {
+		display: inherit;
+	}
+	.bottom-column-drp {
+		display: inherit;
+		max-width: inherit;
+		width: inherit;
+	}
+	div.thumbnail.thumb-drp1, div.thumbnail.thumb-drp2, div.thumbnail.thumb-drp3 {
+		min-height: 0;
+		padding-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p.dropsens-title {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -1200,13 +1276,6 @@ div.nv-content.row {
 	padding-right: 150px;
 }
 
-@media (max-width: 978px) {
-	div.nv-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
-}
-
 div.thumb-nano.thumbnail {
 	border: 1px solid #f05a1b;
 	padding: 0px;
@@ -1286,9 +1355,36 @@ p.subtitle2-bio {
 	padding-top: 15px;
 }
 
+
+@media (max-width: 1024px) {
+	div.nv-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.bottom-column-nv {
+		display: table-cell;
+		float: none;
+		vertical-align: bottom;
+	}
+	.table-row-nv {
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.bottom-column-nv {
+		display: inherit;
+	}
+}
+
 /* END LIFE SCIENCE PAGE */
 
-/* START EDUCATION KITS PAGE */
+/* START EDUCATIONAL PRODUCTS PAGE */
 
 img.einstein-logo.img-responsive {
 	max-height: 120px;
@@ -1310,13 +1406,6 @@ p.einstein-subtitle {
 div.ein-content.row {
 	padding-left: 150px;
 	padding-right: 150px;
-}
-
-@media (max-width: 978px) {
-	div.ein-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
 }
 
 div.thumb-ein.thumbnail {
@@ -1375,13 +1464,6 @@ p.hfc-subtitle2.subtitle2 {
 div.hfc-content.row {
 	padding-left: 150px;
 	padding-right: 150px;
-}
-
-@media (max-width: 978px) {
-	div.hfc-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
 }
 
 div.thumb-hfc.thumbnail {
@@ -1459,7 +1541,50 @@ a.ka-btn.btn.btn-block:hover {
 	border: 1px solid #E55A19;
 }
 
-/* END EDUCATION KITS PAGE */
+.bottom-column-hfc {
+	display: table-cell;
+	float: none;
+	vertical-align: bottom;
+}
+
+.bottom-row-hfc {
+	max-width: 75%;
+}
+
+@media (max-width: 1024px) {
+	.bottom-row-hfc {
+		max-width: 79%;
+	}
+}
+
+@media (max-width: 978px) {
+	.bottom-row-hfc {
+		max-width: 70%;
+	}
+	div.ein-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+	div.hfc-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+@media (max-width: 480px) {
+	.bottom-column-hfc {
+		display: inherit;
+	}
+	.bottom-row-hfc {
+		max-width: 100%;
+	}
+	div.thumb-hfc.thumbnail {
+		min-height: 0;
+		padding-bottom: 30px;
+	}
+}
+
+/* END EDUCATIONAL PRODUCTS PAGE */
 
 /* START MEASURING SYSTEMS PAGE */
 
