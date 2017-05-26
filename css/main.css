@@ -696,6 +696,9 @@ p.shop {
 		font-size: 10px;
 		padding: 5px;
 	}
+	p.subtitle {
+		text-align: left;
+	}
 	
 	/* SHOP */
 	
@@ -904,13 +907,6 @@ div.ma-content.row {
 	padding-right: 150px;
 }
 
-@media (max-width: 978px) {
-	div.ma-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
-}
-
 .thumb-ma {
 	border: 1px solid #128f87;
 	padding: 0px;
@@ -937,6 +933,40 @@ p.metrohm-subtitle {
 	font-size: 14px;
 	color: #95989A;
 	padding-top: 15px;
+}
+
+@media (max-width: 1024px) {
+	div.ma-content.row {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	div.row.ma-content {
+		display: table-row;
+	}
+	.bottom-col-ma {
+		display: table-cell;
+		float: none;
+		vertical-align: bottom;
+	}
+	div.thumbnail.thumb-ma {
+		min-height: 230px;
+	}
+}
+
+@media (max-width: 480px) {
+	div.row.ma-content {
+		display: inherit;
+	}
+	.bottom-col-ma {
+		display: inherit;
+	}
+	div.thumbnail.thumb-ma {
+		min-height: 0;
+		padding-bottom: 30px;
+	}
 }
 
 /* END METROHM-AUTOLAB PAGE */
@@ -1125,11 +1155,10 @@ div.rg-content.row {
 	padding-right: 150px;
 }
 
-@media (max-width: 978px) {
-	div.rg-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
+.bottom-col-rg {
+	display: table-cell;
+	float: none;
+	vertical-align: bottom;
 }
 
 .thumb-rg1 {
@@ -1169,9 +1198,42 @@ p.regatron-subtitle {
 	padding-top: 15px;
 }
 
+@media (max-width: 1024px) {
+	div.rg-content.row {
+		padding: 0px;
+		padding: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.thumb-rg1 {
+		min-height: 670px;
+	}
+	.thumb-rg2 {
+		min-height: 560px;
+	}
+}
+
+@media (max-width: 480px) {
+	.bottom-col-rg {
+		display: inherit;
+	}
+	.thumb-rg1, .thumb-rg2 {
+		min-height: 0;
+		padding-bottom: 30px;
+	}
+}
+
 /* END REGATRON PAGE */
 
 /* START NATIONAL INSTRUMENTS PAGE */
+
+img.img-responsive.img-ni-1 {
+	max-width: 100%;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
 
 div.natinstruments.container-fluid {
 	padding-top: 100px;
@@ -1205,17 +1267,24 @@ p.natinstruments-title3 {
 p.natinstruments-subtitle {
 	font-size: 16px;
 	padding-top: 20px;
-	text-align: justify;
+	text-align: left;
 }	
 	
 img.natinstruments-logo.img-responsive {
-	height: 140px;
+	max-height: 140px;
 	width: auto;
+	height: auto;
 	padding: 25px;
 }
 
 a.ni-link {
 	color: #065fa3;
+}
+
+@media (max-width:  1024px) {
+	img.img-responsive.img-ni-1 {
+		padding-top: 50px;
+	}
 }
 
 /* END NATIONAL INSTRUMENTS PAGE */
@@ -1638,13 +1707,8 @@ a.ni-btn.btn.btn-block:hover {
 div.ni-content.row {
 	padding-left: 150px;
 	padding-right: 150px;
-}
-
-@media (max-width: 978px) {
-	div.ni-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img.ni2.img-responsive {
@@ -1702,13 +1766,6 @@ div.lj-content.row {
 	padding-right: 150px;
 }
 
-@media (max-width: 978px) {
-	div.lj-content.row {
-		padding: 0px;
-		padding: 0px;
-	}
-}
-
 img.om-logo.img-responsive {
 	max-height: 60px;
 	width: auto;
@@ -1762,10 +1819,59 @@ div.om-content.row {
 	padding-right: 150px;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 1024px) {
+	div.ni-content.row {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	div.lj-content.row {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
 	div.om-content.row {
-		padding: 0px;
-		padding: 0px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
+
+@media (max-width: 768px) {
+	div.ni-content.row {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	div.lj-content.row {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	div.om-content.row {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.bottom-col-om {
+		display: table-cell;
+		float: none;
+		vertical-align: bottom;
+	}
+}
+
+@media (max-width: 480px) {
+	img.ni1.img-responsive {
+		margin-top: 20px;
+	}
+	.bottom-col-om {
+		display: inherit;
+	}
+	div.thumbnail.thumb-ni {
+		min-height: 0;
+		padding-bottom: 30px;
+	}
+	div.thumbnail.thumb-lj {
+		min-height: 0;
+		padding-bottom: 30px;
+	}
+	div.thumbnail.thumb-om {
+		min-height: 0;
+		padding-bottom: 40px;
 	}
 }
 
