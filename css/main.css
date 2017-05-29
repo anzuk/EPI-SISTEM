@@ -1424,24 +1424,45 @@ p.subtitle2-bio {
 	padding-top: 15px;
 }
 
+div.row.table-row-nv {
+	display: table-row;
+}
+
+.bottom-column-nv {
+		display: table-cell;
+		float: none;
+		vertical-align: bottom;
+	}
+
 
 @media (max-width: 1024px) {
 	div.nv-content.row {
 		padding: 0px;
 		padding: 0px;
 	}
+	div.row.table-row-nv {
+		display: inherit;
+	}
+	.bottom-column-nv {
+		display: inherit;
+		float: left;
+	}
 }
 
 @media (max-width: 768px) {
 	.bottom-column-nv {
-		display: table-cell;
-		float: none;
+		display: inherit;
+		float: left;
 		vertical-align: bottom;
 	}
 	.table-row-nv {
+		display: inherit;
 		max-width: 90%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	div.thumb-nano.thumbnail {
+		min-height: 385px;
 	}
 }
 
