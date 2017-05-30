@@ -1434,6 +1434,32 @@ div.row.table-row-nv {
 		vertical-align: bottom;
 	}
 
+img.img-responsive.nv-5 {
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+img.img-responsive.nv-6 {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+img.img-responsive.nv-7 {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+a.nv-link {
+	color: #f05a1b;
+	text-decoration: none;
+}
 
 @media (max-width: 1024px) {
 	div.nv-content.row {
