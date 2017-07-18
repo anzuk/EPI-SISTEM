@@ -1923,3 +1923,16 @@ div.om-content.row {
 }
 
 /* END MEASURING SYSTEMS PAGE */
+
+
+/* START PROJECTS PAGE */
+
+div#manunet.container-fluid {
+	margin-top: 130px;
+}
+
+img.manunet-img {
+	margin-bottom: 20px;
+}
+
+/* END PROJECTS PAGE */
