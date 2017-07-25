@@ -1935,4 +1935,14 @@ img.manunet-img {
 	margin-bottom: 20px;
 }
 
+p.projects {
+	text-align: left;
+}
+
+ul.tox-haz {
+	text-align: left;
+	padding-left: 60px;
+	list-style-type: square;
+}
+
 /* END PROJECTS PAGE */
