@@ -842,51 +842,6 @@ p.subtitle2 {
 	}
 }
 
-/* START SUBSCRIBE STYLE */
-
-/* puts Mailchimp fields in a row */
-.horizontal-mailchimp .mc-field-group,
-.horizontal-mailchimp .clear {
-     display: inline-block;
-}
-
-#mc_embed_signup {
-	clear:left; 
-	font-size:12px;
-	padding-bottom: 20px;
-	width: 100%;
-}
-
-#mc_embed_signup form {
-	text-align: left;
-	padding: 10px 0 10px 0;
-}
-
-label {
-	color: #ddf1ef;
-	font-size: 16px;
-}
-
-input#mce-EMAIL.email {
-	padding: 3px;
-}
-
-input.button {
-  color: #ffffff;
-  font-size: 12px;
-  background: #555;
-  padding: 5px 20px 5px 20px;
-  text-decoration: none;
-  border: none;
-}
-
-input.button:hover {
-  background: #6b6b6b;
-  text-decoration: none;
-}
-
-/* END SUBSCRIBE STYLE */
-
 /* START METROHM-AUTOLAB PAGE */
 
 div.metrohm-autolab.container-fluid {
